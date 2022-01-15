@@ -131,7 +131,7 @@ body{
     display: flex;
     height: 595px;
     margin-bottom: 30px;
-   
+  
 }
 .middle{
     display: flex;
@@ -149,8 +149,24 @@ body{
     background-color: white;
     padding: 15px;
     border-radius:7px;
+    box-shadow: 13px 4px 23px -21px grey;
     
- 
+}
+.middle-one ,.middle-two,.middle-three{
+    margin-right:30px;
+    background-color: white;
+    padding: 15px;
+    border-radius:7px;
+    box-shadow: 13px 4px 23px -21px grey;
+    
+}
+.lower-one ,.lower-two,.lower-three{
+    margin-right:30px;
+    background-color: white;
+    padding: 15px;
+    border-radius:7px;
+    box-shadow: 13px 4px 23px -21px grey;
+    
 }
 .upper-one h2{
     font-weight: 600;
@@ -294,3 +310,54 @@ body{
     margin-left: 5px;
     color: orangered;
 }
+.lower-three-text p{
+    margin-top: 640px;
+    margin-left: -140px;
+    color:rgba(224, 44, 109, 0.87);
+    font-weight: 600;
+}
+
+/* bonus part start here */ 
+
+.wrapper{
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-content img{
+    width: 370px;
+    padding: 15px;
+    border-radius: 20px;
+}
+.right-content{
+    width: 560px;
+}
+.right-content h1{
+    font-size: 2.1em;
+    font-weight: 900;
+    margin-top: 0;
+}
+ .right-content p{
+   margin-top: 0;
+   margin-bottom: 32px;
+   color: rgba(108, 108, 108, 1);
+   width: 501px;
+   font-weight: bold;
+   font-size: 16px;
+
+ }
+ .button{
+    width: 196px;
+    height: 44px;
+    background: #E02C6D;
+    border:none;
+    color: aliceblue;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px; 
+ }
+
+ 
