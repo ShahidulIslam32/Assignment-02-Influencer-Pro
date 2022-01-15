@@ -150,7 +150,7 @@ body{
     display: flex;
     height: 500px;
     margin-bottom: 30px;
-    margin-left: 34px;
+
 }
 .upper-one ,.upper-two,.upper-three{
     margin-right:30px;
@@ -268,7 +268,9 @@ body{
     color: orangered;
 }
 
-
+.upper-one{
+    
+}
 /* upper lower section start */ 
 
 .lower-one ,.lower-two,.lower-three{
@@ -399,3 +401,5 @@ body{
     padding: 7px;
     border-radius: 50%;
 }
+
+/* all code CSS Done */ 
